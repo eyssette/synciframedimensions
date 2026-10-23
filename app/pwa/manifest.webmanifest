@@ -1,0 +1,38 @@
+{
+	"name": "js-template",
+	"short_name": "js-template",
+	"description": "Environnement de développement JavaScript pré-configuré et optimisé. Éditeur de code qui vérifie la qualité du code, le formate automatiquement et facilite le débogage, Tâches automatisées pour compiler, tester, pousser, déployer et vérifier l’application. Pré-configuration pour agents IA avec des SKILLS déjà définis. Gestion de l'internationalisation et du mode PWA (Progressive Web App) pour utilisation hors ligne.",
+	"id": "./",
+	"start_url": "./",
+	"scope": "./",
+	"orientation": "natural",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#202229",
+	"icons": [
+		{
+			"src": "./icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "./icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "./maskable-icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "./maskable-icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}
