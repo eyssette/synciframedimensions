@@ -30,7 +30,7 @@ if ! command -v zip >/dev/null 2>&1; then
 	exit 1
 fi
 
-APP_NAME="js-template"
+APP_NAME="synciframedimensions"
 ROOT_DIR="$(git rev-parse --show-toplevel)"
 RELEASE_DIR="$ROOT_DIR/.release/dist"
 SAFE_TAG="${TAG//\//-}"
