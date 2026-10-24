@@ -1,3 +1,19 @@
+## 1.0.1 (2026-10-25)
+
+### Fix
+
+- **css**: taille initiale de l'iframe [(3980c02)](https://forge.apps.education.fr/eyssette/synciframedimensions/-/commit/3980c02bf7b33288069f882acf45c167d9043a6b)
+
+### CI
+
+- ajout de l'étape de construction du site de documentation [(8a67844)](https://forge.apps.education.fr/eyssette/synciframedimensions/-/commit/8a67844503be8c479771f03ff27d5c89ce182089)
+- déploiement sur Github seulement lors d'un changement de tag [(a168901)](https://forge.apps.education.fr/eyssette/synciframedimensions/-/commit/a1689014633c9c8db30c0a9612def25e84ff9641)
+- ajout d'un fichier de déploiement simplifié pour Github [(fe9e97b)](https://forge.apps.education.fr/eyssette/synciframedimensions/-/commit/fe9e97bf40c6d5a57b17f1c31e4c16ce9ba67453)
+
+### Chore
+
+- ajout d'un dépôt git [(908ae0d)](https://forge.apps.education.fr/eyssette/synciframedimensions/-/commit/908ae0dd64727d78db60cbe950d225232ff56173)
+
 ## 1.0.0 (2026-10-24)
 
 ### Feat
