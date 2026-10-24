@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>synciframedimensions</title>
+		<meta
+			name="description"
+			content="Test de synchronisation des dimensions d'un iframe" />
+		<meta name="author" content="Cédric Eyssette" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.min.css" />
+		<link rel="icon" href="./favicon.svg" />
+	</head>
+	<body>
+		<p>
+			Ce fichier parent.html est un exemple de page parente qui intègre une
+			iframe qui ajuste sa hauteur en fonction du contenu de la page fille.
+		</p>
+		<p>
+			La hauteur de l'iframe sera ajustée automatiquement en fonction du contenu
+			de la page fille.
+		</p>
+		<iframe
+			title="page fille"
+			src="./index.html"
+			id="child-iframe"
+			style="width: 100%; border: none"></iframe>
+		<script>
+			const iframe = document.getElementById("child-iframe");
+			window.addEventListener("message", (event) => {
+				if (event.data && event.data.type === "height") {
+					// On ajoute 100px pour tenir compte du padding et de la marge de l'iframe
+					const newHeight = event.data.height + 100;
+					iframe.style.height = newHeight + "px";
+				}
+			});
+		</script>
+	</body>
+</html>

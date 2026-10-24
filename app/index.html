@@ -13,7 +13,11 @@
 		<link rel="manifest" href="./pwa/manifest.webmanifest" />
 	</head>
 	<body>
-		<main></main>
+		<div>
+			<label for="height-input">Hauteur (pixels) :</label>
+			<input type="number" id="height-input" value="100" min="0" />
+		</div>
+		<main data-height="100"></main>
 		<script src="./iifeFallback.js" defer></script>
 		<script type="module" src="./chunks/main.js" id="main-module"></script>
 	</body>

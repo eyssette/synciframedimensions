@@ -1,9 +1,22 @@
 main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
 	text-align: center;
 	max-width: 600px;
-	margin: auto;
+	margin: 2em auto;
+	background-color: lightyellow;
+	padding: 1em;
+	border: 1px solid black;
 }
 
 main p {
 	text-align: left;
+}
+
+div {
+	text-align: center;
+	margin: 2em;
 }
